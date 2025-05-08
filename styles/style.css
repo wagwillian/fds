@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(79, 173, 178);
+}
+h1{    
+    color:rgb(144, 54, 228);
+    text-align: center;
+}
+p{ font-size: 20px;
+    text-align: justify;
+}
+
+.lista{
+    list-style-type: square;
+    line-height: 2.5em;
+}    
+.imagem{    
+    max-width: 450px;
+    height: auto;
+    display: block;
+    background-size:contain;
+    border-radius: 20px;
+}
+table, th, td{
+    border: solid;
+    text-align: center;
+    font-weight: bold;    
+}
+td{column-span: 2;}
+a:link{
+    color: blue;
+    text-decoration: underline;
+    font-size: 26px;
+}
+a:hover{
+    color:red;
+}
+
